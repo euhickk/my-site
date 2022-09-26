@@ -178,3 +178,27 @@ a {
     border-color: rgb(209, 0, 52);
     transition-duration: 0.2s;
 }
+
+footer {
+
+    background-color: rgb(20, 20, 20);
+    color: #eaeaea;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    border-color: rgb(209, 0, 52);
+}
+
+footer a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(209, 0, 52);
+}
