@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(20, 20, 20);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {   
+    color: rgb(209, 0, 52);
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-weight: 200;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+}
+
+h3 {
+    color: rgb(209, 0, 52);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    min-height: 80vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    text-align: center;
+
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    margin: 2rem 0;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: -.02em;
+}
+
+.description {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-top: 1.5rem;
+}
+
+.card1 {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    transition-duration: color.15s ease,border-color.15s ease;
+}
+
+.card1_title {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card1_description {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.card2 {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    transition-duration: color.15s ease,border-color.15s ease;
+}
+
+.card2_title {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card2_description {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.card1:hover {
+    border-color: rgb(209, 0, 52);
+    transition-duration: 0.2s;
+}
+
+.card2:hover {
+    border-color: rgb(209, 0, 52);
+    transition-duration: 0.2s;
+}
