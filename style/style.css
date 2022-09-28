@@ -184,12 +184,68 @@ a {
     line-height: 1.5;
 }
 
+.card3 {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    transition-duration: color.15s ease,border-color.15s ease;
+}
+
+.card3_title {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card3_description {
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.card4 {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    transition-duration: color.15s ease,border-color.15s ease;
+}
+
+.card4_title {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card4_description {
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
 .card1:hover {
     border-color: rgb(209, 0, 52);
     transition-duration: 0.2s;
 }
 
 .card2:hover {
+    border-color: rgb(209, 0, 52);
+    transition-duration: 0.2s;
+}
+
+.card3:hover {
+    border-color: rgb(209, 0, 52);
+    transition-duration: 0.2s;
+}
+
+.card4:hover {
     border-color: rgb(209, 0, 52);
     transition-duration: 0.2s;
 }

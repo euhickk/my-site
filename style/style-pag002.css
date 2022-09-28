@@ -128,10 +128,10 @@ a {
 }
 
 .card1 {
-    margin: auto;
-    flex-basis: 65%;
+    margin: 1rem;
+    flex-basis: 45%;
     padding: 1.5rem;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     border: 1px solid rgb(20, 20, 20);
     border-radius: 10px;
@@ -144,7 +144,6 @@ a {
 }
 
 .card1_description {
-    
     margin: 0;
     font-weight: 100;
     font-size: 1.1rem;
@@ -152,11 +151,10 @@ a {
 }
 
 .card2 {
-    margin: auto;
+    margin: 1rem;
     flex-basis: 45%;
     padding: 1.5rem;
-    margin-top: 30px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     border: 1px solid rgb(20, 20, 20);
     border-radius: 10px;
@@ -169,9 +167,9 @@ a {
 }
 
 .card2_description {
-    font-weight: 100;
     margin: 0;
-    font-size: 1.25rem;
+    font-weight: 100;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
@@ -184,7 +182,6 @@ a {
     border-color: rgb(209, 0, 52);
     transition-duration: 0.2s;
 }
-
 
 footer {
 
